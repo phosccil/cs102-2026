@@ -1,9 +1,9 @@
 """модуль с функцией приветствия"""
 
 
-def text(message):
-    """возвращает переданное сообщение"""
-    return message
+def text():
+    """возвращает сообщение"""
+    return "message"
 
 
-print(text("Привет"))
+print("hello world")
